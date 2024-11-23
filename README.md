@@ -1,4 +1,4 @@
-# URL Shortener API - Projeto Java 🚀
+# URL Shortener Lambda - Projeto Java 🚀
 
 Este projeto foi desenvolvido durante o evento da **Rocketseat**, utilizando a arquitetura serverless para criar uma API
 de encurtamento de URLs dinâmica e escalável, integrando serviços como **AWS Lambda** e **Amazon S3**.
@@ -69,4 +69,4 @@ O projeto utiliza as seguintes tecnologias e bibliotecas:
 - [AWS Lambda](https://aws.amazon.com/pt/lambda/)
 - [Amazon S3](https://aws.amazon.com/pt/s3/)
 
-##💻 Desenvolvido por Robson Henrique Rodrigues durante o evento *Curso Gratuito de Java* da Rocketseat. 🧑‍💻
+## 💻 Desenvolvido por Robson Henrique Rodrigues durante o evento *Curso Gratuito de Java* da Rocketseat. 🧑‍💻
