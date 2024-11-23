@@ -1,21 +1,29 @@
 # URL Shortener API - Projeto Java 🚀
 
-Este projeto foi desenvolvido durante o evento da **Rocketseat**, utilizando a arquitetura serverless para criar uma API de encurtamento de URLs dinâmica e escalável, integrando serviços como **AWS Lambda** e **Amazon S3**.
+Este projeto foi desenvolvido durante o evento da **Rocketseat**, utilizando a arquitetura serverless para criar uma API
+de encurtamento de URLs dinâmica e escalável, integrando serviços como **AWS Lambda** e **Amazon S3**.
 
 ---
 
 ## 🔍 Descrição
 
 ### Aula 01 - Criando Função Serverless e Configurando URL Encurtada
-Nesta etapa, criamos nossa primeira função serverless na **AWS Lambda** e configuramos o ambiente inicial do projeto. Aqui estão os principais passos:
+
+Nesta etapa, criamos nossa primeira função serverless na **AWS Lambda** e configuramos o ambiente inicial do projeto.
+Aqui estão os principais passos:
+
 - Criamos uma conta na **AWS** e aprendemos sobre a importância das funções serverless em sistemas escaláveis.
 - Desenvolvemos a função `createShortUrlLambda`, que:
     - Recebe requisições HTTP.
     - Processa os dados fornecidos para gerar uma URL encurtada dinâmica.
-- Consolidamos o aprendizado através de exemplos práticos, configurando o ambiente e aprendendo a manipular requisições de forma eficiente.
+- Consolidamos o aprendizado através de exemplos práticos, configurando o ambiente e aprendendo a manipular requisições
+  de forma eficiente.
 
 ### Aula 02 - Integração com Amazon S3
-No segundo momento, integramos nosso sistema com o **Amazon S3**, adicionando funcionalidades para armazenamento seguro e escalável. As principais atividades incluem:
+
+No segundo momento, integramos nosso sistema com o **Amazon S3**, adicionando funcionalidades para armazenamento seguro
+e escalável. As principais atividades incluem:
+
 - Criação de um bucket no S3 para armazenar os dados gerados.
 - Conexão da função `createShortUrlLambda` com o bucket.
 - Implementação de geração de UUIDs únicas para cada URL encurtada.
@@ -34,6 +42,7 @@ O projeto utiliza as seguintes tecnologias e bibliotecas:
 - **Jackson Databind**: Para manipulação de JSON.
 
 ### Configuração do Maven:
+
 - **Java 17** como versão do compilador.
 - **Maven Shade Plugin** para empacotar o projeto.
 
@@ -43,7 +52,7 @@ O projeto utiliza as seguintes tecnologias e bibliotecas:
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/Robson16/nlw17-inorbit-nodejs.git
+   git clone https://github.com/Robson16/CreateUrlShortener.git
    ```
 
 2. Configure suas credenciais da AWS para acessar os serviços necessários.
